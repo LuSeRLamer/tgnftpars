@@ -5,20 +5,6 @@ import logging
 import os
 
 
-# ===== SOCKS5 PROXY =====
-
-USE_PROXY = True
-
-PROXY = {
-    "proxy_type": "socks5",
-    "addr": "168.81.66.130",       # IP прокси
-    "port": 8000,              # Порт
-    "username": "bLTRnU",  # Логин
-    "password": "dNbmZ9",  # Пароль
-    "rdns": True
-}
-
-
 from telethon import TelegramClient, errors, types
 from telethon.tl.functions.payments import GetSavedStarGiftsRequest
 
